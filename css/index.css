@@ -1,0 +1,46 @@
+:root {
+    
+    --main-color: black; ; scroll-behavior: smooth;
+}
+
+body {
+    background-color: pink
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+        font-family: Snell Roundhand, cursive;
+}
+
+ main .naillogo {
+    display: flex;
+    justify-content: center; 
+
+}
+main div img {
+    border: 0.3em solid black;
+    border-radius: 100px;
+}
+
+header nav .top-menu {
+    background-color: pink;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+header nav .top-menu li a {
+    margin: 10px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header nav .top-menu li a:hover {
+    border: 1px solid var(--main-color);
+    }
